@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature's Door : Order Online Fruits and Vegetables</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+</head>
+
+<body>
+    <!-- full section of the container -->
+    <div class="container">
+        <!-- Contains the main navbar -->
+        <div class="navbar">
+            <span class="logo"><a href="#"><img src="./img/nd.jpg" alt="Logo"></a></span>
+            <h3><a href="#" id="companyName">Nature's Door</a></h3>
+            <ul>
+                <!-- <li><a href="">Nature's Door</a></li> -->
+                <li><a href="#">Home</a></li>
+                <li><a href="./webpg/about.html">About</a></li>
+                <li><a href="./webpg/services.html">Services</a></li>
+                <li><a href="./webpg/contact.html">Contact Us</a></li>
+                <li><a href="./webpg/faq.html">FAQ's</a></li>
+            </ul>
+            <div>
+                <ul class="navIcons">
+                    <li><i class="fas fa-bell"></i></li>
+                    <li><i class="fas fa-heart"></i></li>
+                    <li><i class="fas fa-shopping-cart"></i></li>
+                    <li><i class="fas fa-user"></i></li>
+                </ul>
+            </div>
+        </div>
+        <!-- Contains the small navbar -->
+        <div class="smallNavbar">
+            <ul>
+                <li><a href="">Vegetables</a></li>
+                <li><a href="">Fruits</a></li>
+                <li><a href="">Dairy Products</a></li>
+                <li><a href="">Grocery</a></li>
+                <li><a href="">Others</a></li>
+            </ul>
+        </div>
+        <!-- Contains the vertical menu and banner -->
+        <div class="section1">
+            <div class="verMenu" id="verMenu">
+                <ul>
+                    <li><i class="fas fa-times cross verMenuCross" id="verMenuCross"></i></li>
+                    <li><i class="fas fa-money-check-alt"></i>Special Offer</li>
+                    <li><i class="fas fa-shopping-bag"></i>My Orders</li>
+                    <li><i class="fas fa-user-circle"></i>My Account</li>
+                    <li><i class="fas fa-shopping-cart"></i>My Carts</li>
+                    <li><i class="fas fa-heart"></i>My Wishlists</li>
+                    <li><i class="fas fa-hands-helping"></i>Help Center</li>
+                    <li><i class="fas fa-check-circle"></i>Privacy Policy</li>
+                    <li><i class="fas fa-edit"></i>Edit Profile</li>
+                    <li><i class="fas fa-balance-scale-right"></i>Legal</li>
+                </ul>
+            </div>
+            <div class="banner" id="banner">
+                <div class="hamSection" id="hamSection">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="semiBanner" id="semiBanner">
+                    <div class="searchMenu" id="searchMenu">
+                        <select id="searchCategory" name="searchCategory">
+                            <option value="All">All category</option>
+                            <option value="Vegetable">Vegetable</option>
+                            <option value="Fruits">Fruits</option>
+                            <option value="Diary">Diary</option>
+                            <option value="Grocery">Grocery</option>
+                        </select>
+                        <input type="text" name="searchitem" id="searchitem" class="searchitem"
+                            placeholder="What are you looking for?">
+                        <button class="searchBtn">SEARCH</button>
+                    </div>
+                    <div class="smallBanner">
+                        <section class="section">
+                            <div class="heading">
+                                <h2>Top Deals of the day</h2>
+                            </div>
+                            <div class="poster">
+                                <i class="fas fa-arrow-circle-left arrow" id="arrowLeft" onclick="document.getElementById('arrowLeft').src='./img/ban4.png'"></i>
+                                <div class="imgContainer" id="imgContainer">
+                                    <img src="./img/ban1.png" alt="ban1" class="imgSize" id="imgSize">
+                                    <button class="buyNowBtn" id="bannerBtn">BUY NOW</button>
+                                </div>
+                                <i class="fas fa-arrow-circle-right arrow" id="arrowRight"></i>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
